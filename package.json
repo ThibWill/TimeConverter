@@ -1,0 +1,18 @@
+{
+  "name": "epoch",
+  "version": "1.0.0",
+  "description": "Convert unix time",
+  "main": "epoch.js",
+  "scripts": {
+    "test": "echo 'Convertion 12121212112ms with script : ' && epoch 12121212112ms && exit 1"
+  },
+  "bin": {
+    "epoch": "./epoch.js"
+  },
+  "license": "ISC",
+  "preferGlobal": true,
+  "author": "Thibault Willer",
+  "dependencies": {
+    "moment": "2.22.2"
+  }
+}
