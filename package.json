@@ -4,7 +4,7 @@
   "description": "Convert unix time",
   "main": "epoch.js",
   "scripts": {
-    "test": "echo 'Convertion 12121212112ms with script : ' && epoch 12121212112ms && exit 1"
+    "test": "echo \"Convertion 12121212112ms with script : \" && epoch 12121212112ms && exit 1"
   },
   "bin": {
     "epoch": "./epoch.js"
