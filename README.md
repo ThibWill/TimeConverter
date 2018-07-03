@@ -22,5 +22,5 @@ epoch 4545445545 => January 15th 2114, 8:45:45 am
 
 epoch 2012-12-12 => 1355266800
 
-Attention : dans le dernier cas Moment.js est un peu pointilleux et va vous sortir un gros warning des familles si la date n'est en accord avec les conventions récentes des navigateurs 
+Attention : dans le dernier cas Moment.js est un peu pointilleux et va vous sortir un gros warning des familles si la date n'est pas en accord avec les conventions récentes des navigateurs 
 
