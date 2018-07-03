@@ -18,7 +18,7 @@ Node supportant ES6
 
 epoch 4545445545ms => February 22nd 1970, 3:37:26 pm
 
-epoch 4545445545 => anuary 15th 2114, 8:45:45 am
+epoch 4545445545 => January 15th 2114, 8:45:45 am
 
 epoch 2012-12-12 => 1355266800
 
