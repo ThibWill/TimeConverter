@@ -6,16 +6,14 @@ const moment = require('moment');
 let time = process.argv[2];
 
 if(time) {
-  let nature = 'seconds';
 
   if(time.indexOf('ms') !== -1 || process.argv[3] === 'ms') {
-    nature = 'miliseconds';
     time = time.replace('ms', '')
+    time = Math.round(time/1000)
   } 
   time = time.trim();
 
   if(time.match(/^\d+$/)){ // Only number
-    nature === 'miliseconds' ? time = Math.round(time/1000) : null;
     console.log(moment.unix(time).format('MMMM Do YYYY, h:mm:ss a'))
   } else {
     try {
@@ -27,3 +25,4 @@ if(time) {
 } else {
   console.log('No time to convert :\'(')
 }
+
